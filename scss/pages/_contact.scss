@@ -1,0 +1,46 @@
+.contact-bgImg-container{
+    @include bgImg(100vh);
+}
+
+.contact{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .contactme{
+        h1{
+            font-size: 5rem;
+            font-weight: 400;
+            color: purple;
+        }
+    }
+
+    &__items{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0 3rem;
+
+        i{
+            letter-spacing: 0.5rem;
+            font-size: 2rem;
+            padding: 1rem;
+            transition: all 3s ease-in-out;
+
+            &:hover{
+                color: purple;
+            }
+        }
+
+        p{
+            color: purple;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+
+    }
+
+}

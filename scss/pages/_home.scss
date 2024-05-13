@@ -1,0 +1,42 @@
+.home-bgImg-container {
+    @include bgImg(100vh);
+    
+  }
+  
+
+  
+/* ------------------------ */
+/*          header          */
+/* ------------------------ */
+.header-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+
+    h1{
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 80px;
+        
+        span{
+            color:purple;
+            font-weight: 700;
+            
+        }
+    }
+
+    .line{
+        border-bottom: 2px dashed rgb(186, 171, 171);
+        width: 100vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+@mixin bgImg($height){
+    height: $height;
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(148, 121, 121, 0.6),
+        rgba(184, 69, 69, 0.3)
+      ),
+      url(../img/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}

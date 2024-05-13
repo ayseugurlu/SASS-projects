@@ -1,0 +1,29 @@
+
+/* ------------------------ */
+/*          footer          */
+/* ------------------------ */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    padding: 1rem;
+    
+    
+    .social-icons{
+      font-size: 2rem;
+      letter-spacing: 0.3rem;
+      padding: 8px;
+
+      
+      a{
+        color: white;
+
+        &:hover{
+            color: purple;
+        }
+        
+      }
+    }
+}
